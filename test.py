@@ -8,6 +8,8 @@ import pandas as pd
 df = pd.read_parquet(
     "https://minio.lab.sspcloud.fr/projet-formation/diffusion/funathon/2026/project2/generation_None_temp08.parquet"
 )
+
+
 df.head()
 
 # %%
